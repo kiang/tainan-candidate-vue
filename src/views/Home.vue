@@ -45,6 +45,14 @@ import { ref } from "vue";
                     科技是我的本業，過去幾年脫離舒適圈走進政治領域，有幸在中央待過經濟部政策辦、在台南市政府服務時協助創設智慧城市辦公室，擔任台灣民眾黨北區、中西區主任期間也參與了許多直接服務民眾的陳情案，我已經準備好為更多民眾服務，因此爭取台灣民眾黨提名參選台南北區、中西區議員；科技也只是工具，我會善用這個工具聆聽大家的需求與期待，以資料治理為基礎監督台南市政府，進而讓台南可以走出下個
                     400 年的路，懇請北區、中西區的朋友給我這個機會！
                   </p>
+                  <iframe
+                    class="home-video"
+                    src="https://www.youtube.com/embed/ShZTQWEmvHc"
+                    title="怪咖系列 【真相地圖】完整正片 (The Debunker Full Movie)"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
                 </div>
               </div>
             </div>
@@ -183,6 +191,16 @@ import { ref } from "vue";
 
   @media (min-width: 992px) {
     display: none;
+  }
+}
+
+.home-video {
+  width: 100%;
+  @media (min-width: 992px) {
+    height: 500px;
+  }
+  @media (min-width: 1920px) {
+    height: 500px;
   }
 }
 
